@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Property Pro</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #1A3A5C 0%, #0B1D33 100%);
+            min-height: 100vh;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px 40px;
+            color: white;
+        }
+        .hero h1 { font-size: 42px; margin-bottom: 12px; }
+        .hero p { font-size: 18px; opacity: 0.85; max-width: 500px; margin: 0 auto 32px; }
+        .badge {
+            display: inline-block;
+            background: white;
+            color: #1A3A5C;
+            padding: 12px 28px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .badge:hover { transform: scale(1.05); }
+        .features {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 20px 80px;
+        }
+        .feature {
+            background: rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 16px;
+            color: white;
+        }
+        .feature h3 { font-size: 18px; margin-bottom: 6px; }
+        .feature p { opacity: 0.8; font-size: 15px; }
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: rgba(255,255,255,0.5);
+            font-size: 14px;
+        }
+        .footer a { color: rgba(255,255,255,0.7); }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Receipt Property Pro</h1>
+        <p>Scan receipts, categorize by rental property, and auto-file to the cloud. Built for landlords and real estate investors.</p>
+        <a class="badge" href="https://apps.apple.com" target="_blank">Download on the App Store</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Instant Receipt Scanning</h3>
+            <p>Point your camera at any receipt. Apple Vision OCR extracts vendor, amount, and date in seconds.</p>
+        </div>
+        <div class="feature">
+            <h3>AI-Powered Accuracy</h3>
+            <p>Bring your own API key for Claude, OpenAI, or Gemini. AI fills in what OCR misses on tricky receipts.</p>
+        </div>
+        <div class="feature">
+            <h3>IRS Schedule E Categories</h3>
+            <p>Expenses auto-sort into the 14 IRS rental property categories: repairs, insurance, mortgage interest, and more.</p>
+        </div>
+        <div class="feature">
+            <h3>Auto-File to Dropbox</h3>
+            <p>Receipts are saved as PDFs and filed into your property folder structure. Expense log CSV syncs automatically.</p>
+        </div>
+        <div class="feature">
+            <h3>Multi-Property Support</h3>
+            <p>Manage unlimited properties (Pro). Each gets its own folder hierarchy matching your tax filing structure.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
+        <a href="support.html">Support</a>
+    </div>
+</body>
+</html>

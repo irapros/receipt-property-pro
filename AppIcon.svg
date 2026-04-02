@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A3A5C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0B1D33;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D8E4F0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5AAFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2B7DD6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="224" ry="224" fill="url(#bgGrad)"/>
+
+  <!-- Centered R with house -->
+  <g transform="translate(512, 520)">
+    <!-- Bold stylized R -->
+    <path d="M -210 -320 L -210 340 L -120 340 L -120 40 L 10 40 L 160 340 L 260 340 L 100 25
+             Q 210 -10 210 -145 Q 210 -320 40 -320 Z
+             M -120 -240 L 30 -240 Q 120 -240 120 -145 Q 120 -50 30 -50 L -120 -50 Z"
+          fill="url(#rGrad)" fill-rule="evenodd"/>
+
+    <!-- House sitting on top of R bowl -->
+    <!-- House body -->
+    <path d="M 50 -320 L 50 -370 L 200 -370 L 200 -320"
+          fill="url(#roofGrad)"/>
+
+    <!-- Roof -->
+    <path d="M 125 -445 L 35 -370 L 215 -370 Z"
+          fill="url(#roofGrad)"/>
+
+    <!-- Chimney -->
+    <rect x="165" y="-478" width="22" height="55" rx="3" fill="url(#roofGrad)"/>
+
+    <!-- Window -->
+    <rect x="105" y="-360" width="38" height="30" rx="4" fill="#0B1D33" opacity="0.6"/>
+
+    <!-- Door -->
+    <rect x="72" y="-355" width="22" height="35" rx="3" fill="#0B1D33" opacity="0.6"/>
+  </g>
+</svg>

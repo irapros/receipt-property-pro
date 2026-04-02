@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Receipt Property Pro</string>
+    <key>CFBundleDisplayName</key>
+    <string>Receipt Property Pro</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <!-- Camera permission for receipt scanning -->
+    <key>NSCameraUsageDescription</key>
+    <string>Receipt Property Pro needs camera access to scan and photograph receipts for expense tracking.</string>
+
+    <!-- Photo library for importing receipt images -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Receipt Property Pro can import receipt photos from your library.</string>
+
+    <!-- URL scheme for Dropbox OAuth callback -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.receiptpropertypro</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>receiptpropertypro</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- Scene configuration for SwiftUI -->
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+    </dict>
+
+    <!-- Supported orientations -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <key>UILaunchScreen</key>
+    <dict/>
+</dict>
+</plist>
