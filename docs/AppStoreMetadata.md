@@ -48,13 +48,16 @@ Initial release! Scan receipts and documents, AI-powered data extraction, IRS Sc
 ---
 
 ## Privacy URL
-https://[your-github-username].github.io/receipt-property-pro/privacy-policy.html
+https://irapros.github.io/receipt-property-pro/privacy-policy.html
 
 ## Support URL
-https://[your-github-username].github.io/receipt-property-pro/support.html
+https://irapros.github.io/receipt-property-pro/support.html
 
 ## Marketing URL
-https://[your-github-username].github.io/receipt-property-pro/
+https://irapros.github.io/receipt-property-pro/
+
+## GitHub Repository
+https://github.com/irapros/receipt-property-pro
 
 ---
 
